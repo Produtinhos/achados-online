@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Achados Online</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body { background: #f5f7fa; color: #333; }
+    header {
+      background: linear-gradient(135deg, #ff6a00, #ff9a00);
+      color: #fff;
+      padding: 25px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.2rem; }
+    header p { margin-top: 8px; opacity: 0.95; }
+
+    .search-box {
+      max-width: 500px;
+      margin: 20px auto;
+      display: flex;
+    }
+    .search-box input {
+      flex: 1;
+      padding: 12px;
+      border-radius: 8px 0 0 8px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+    .search-box button {
+      padding: 12px 18px;
+      border: none;
+      background: #ff6a00;
+      color: #fff;
+      border-radius: 0 8px 8px 0;
+      cursor: pointer;
+    }
+
+    main { max-width: 1100px; margin: 30px auto; padding: 0 15px; }
+
+    .category { margin-bottom: 40px; }
+    .category h2 {
+      margin-bottom: 15px;
+      border-left: 6px solid #ff6a00;
+      padding-left: 10px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .product img {
+      width: 100%;
+      height: 160px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .product h3 { font-size: 1rem; margin-bottom: 8px; }
+    .product p { font-size: 0.9rem; color: #666; margin-bottom: 12px; }
+
+    .product a {
+      text-align: center;
+      padding: 10px;
+      background: #ff6a00;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Achados Online</h1>
+    <p>Os melhores achados da Shopee e Mercado Livre em um só lugar</p>
+  </header>
+
+  <div class="search-box">
+    <input type="text" placeholder="Pesquisar produtos..." />
+    <button>Buscar</button>
+  </div>
+
+  <main>
+
+    <section class="category">
+      <h2>📱 Eletrônicos</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://via.placeholder.com/300" alt="Produto eletrônico" />
+          <h3>Fone Bluetooth</h3>
+          <p>Qualidade e ótimo custo-benefício.</p>
+          <a href="#">Comprar na Shopee</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="category">
+      <h2>🏠 Casa</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://via.placeholder.com/300" alt="Produto casa" />
+          <h3>Luminária LED</h3>
+          <p>Ideal para decorar e iluminar.</p>
+          <a href="#">Comprar no Mercado Livre</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="category">
+      <h2>👔 Acessórios Masculinos</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://via.placeholder.com/300" alt="Acessório masculino" />
+          <h3>Relógio Masculino</h3>
+          <p>Estilo e elegância.</p>
+          <a href="#">Comprar na Shopee</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="category">
+      <h2>👗 Acessórios Femininos</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://via.placeholder.com/300" alt="Acessório feminino" />
+          <h3>Bolsa Feminina</h3>
+          <p>Moderna e prática.</p>
+          <a href="#">Comprar no Mercado Livre</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="category">
+      <h2>🛠️ Utilidades</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://via.placeholder.com/300" alt="Utilidade" />
+          <h3>Organizador Multiuso</h3>
+          <p>Facilite seu dia a dia.</p>
+          <a href="#">Comprar na Shopee</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>⚠️ Aviso: Este site contém links de afiliados. Podemos receber comissão sem custo adicional para você.</p>
+    <p>© 2026 - Achados Online</p>
+  </footer>
+
+</body>
+</html>
