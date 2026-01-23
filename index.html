@@ -89,6 +89,78 @@
       padding: 20px;
       font-size: 0.85rem;
     }
+    /* ===== ESTILO LOJA GRANDE ===== */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 22px;
+}
+
+.product {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+}
+
+.product img {
+  width: 100%;
+  height: 170px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.product h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.product p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.badges {
+  font-size: 0.8rem;
+  color: #444;
+  background: #f5f5f5;
+  padding: 6px 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  background: linear-gradient(135deg, #ff6a00, #ff9a00);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.product a:hover {
+  opacity: 0.9;
+}
+
+.trust {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.75rem;
+  color: #2e7d32;
+}
 
   </style>
 </head>
