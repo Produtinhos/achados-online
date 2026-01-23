@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Achados Online</title>
-  <style> 
+  <style>
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
     body { background: #f5f7fa; color: #333; }
     header {
@@ -89,79 +89,6 @@
       padding: 20px;
       font-size: 0.85rem;
     }
-    /* ===== ESTILO LOJA GRANDE ===== */
-
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 22px;
-}
-
-.product {
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 15px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.product:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
-}
-
-.product img {
-  width: 100%;
-  height: 170px;
-  object-fit: contain;
-  margin-bottom: 12px;
-}
-
-.product h3 {
-  font-size: 1rem;
-  margin-bottom: 6px;
-  color: #222;
-}
-
-.product p {
-  font-size: 0.9rem;
-  color: #555;
-  margin-bottom: 8px;
-}
-
-.badges {
-  font-size: 0.8rem;
-  color: #444;
-  background: #f5f5f5;
-  padding: 6px 8px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.product a {
-  display: block;
-  text-align: center;
-  padding: 12px;
-  background: linear-gradient(135deg, #ff6a00, #ff9a00);
-  color: #fff;
-  text-decoration: none;
-  border-radius: 10px;
-  font-weight: bold;
-  margin-top: 6px;
-}
-
-.product a:hover {
-  opacity: 0.9;
-}
-
-.trust {
-  display: block;
-  text-align: center;
-  margin-top: 8px;
-  font-size: 0.75rem;
-  color: #2e7d32;
-}
-
   </style>
 </head>
 <body>
@@ -185,94 +112,13 @@
 
     <section class="category">
       <h2>📱 Eletrônicos</h2>
-      <div class="product">
-  <img src="imagem.jpg" alt="Produto">
-  <h3>Fone Bluetooth TWS</h3>
-  <p>Som potente e confortável para o dia a dia.</p>
-
-  <p class="badges">
-    🚚 Entrega rápida | ⭐ Bem avaliado | 💸 Ótimo custo-benefício
-  </p>
-
-  <a href="SEU_LINK_AFILIADO" target="_blank">
-    Ver Produto
-  </a>
-
-  <small class="trust">
-    🔒 Compra segura na Shopee / Mercado Livre
-  </small>
-</div>
-
+      <div class="products">
         <div class="product">
-  <img src="imagem.jpg" alt="Produto">
-  <h3>Fone Bluetooth TWS</h3>
-  <p>Som potente e confortável para o dia a dia.</p>
-
-  <p class="badges">
-    🚚 Entrega rápida | ⭐ Bem avaliado | 💸 Ótimo custo-benefício
-  </p>
-
-  <a href="SEU_LINK_AFILIADO" target="_blank">
-    Ver Produto
-  </a>
-
-  <small class="trust">
-    🔒 Compra segura na Shopee / Mercado Livre
-  </small>
-</div>
-        <div class="product">
-  <img src="imagem.jpg" alt="Produto">
-  <h3>Fone Bluetooth TWS</h3>
-  <p>Som potente e confortável para o dia a dia.</p>
-
-  <p class="badges">
-    🚚 Entrega rápida | ⭐ Bem avaliado | 💸 Ótimo custo-benefício
-  </p>
-
-  <a href="SEU_LINK_AFILIADO" target="_blank">
-    Ver Produto
-  </a>
-
-  <small class="trust">
-    🔒 Compra segura na Shopee / Mercado Livre
-  </small>
-</div>
-      <div class="product">
-  <img src="imagem.jpg" alt="Produto">
-  <h3>Fone Bluetooth TWS</h3>
-  <p>Som potente e confortável para o dia a dia.</p>
-
-  <p class="badges">
-    🚚 Entrega rápida | ⭐ Bem avaliado | 💸 Ótimo custo-benefício
-  </p>
-
-  <a href="SEU_LINK_AFILIADO" target="_blank">
-    Ver Produto
-  </a>
-
-  <small class="trust">
-    🔒 Compra segura na Shopee / Mercado Livre
-  </small>
-</div>
-      <div class="product">
-  <img src="imagem.jpg" alt="Produto">
-  <h3>Fone Bluetooth TWS</h3>
-  <p>Som potente e confortável para o dia a dia.</p>
-
-  <p class="badges">
-    🚚 Entrega rápida | ⭐ Bem avaliado | 💸 Ótimo custo-benefício
-  </p>
-
-  <a href="SEU_LINK_AFILIADO" target="_blank">
-    Ver Produto
-  </a>
-
-  <small class="trust">
-    🔒 Compra segura na Shopee / Mercado Livre
-  </small>
-</div>
-
-
+          <img src="https://via.placeholder.com/300" alt="Produto eletrônico" />
+          <h3>Fone Bluetooth</h3>
+          <p>Qualidade e ótimo custo-benefício.</p>
+          <a href="#">Ver Produto</a>
+        </div>
       </div>
     </section>
 
@@ -285,7 +131,76 @@
           <p>Ideal para decorar e iluminar.</p>
           <a href="#">Comprar no Mercado Livre</a>
         </div>
+<div class="product">
+  <img src="imagem.jpg" alt="Produto">
+  <h3>Fone Bluetooth TWS</h3>
+  <p>Som potente e confortável para o dia a dia.</p>
+
+  <p class="badges">
+    🚚 Entrega rápida | ⭐ Bem avaliado | 💸 Ótimo custo-benefício
+  </p>
+
+  <a href="SEU_LINK_AFILIADO" target="_blank">
+    Ver Produto
+  </a>
+
+  <small class="trust">
+    🔒 Compra segura na Shopee / Mercado Livre
+  </small>
+</div>
+<div class="product">
+  <img src="imagem.jpg" alt="Produto">
+  <h3>Fone Bluetooth TWS</h3>
+  <p>Som potente e confortável para o dia a dia.</p>
+
+  <p class="badges">
+    🚚 Entrega rápida | ⭐ Bem avaliado | 💸 Ótimo custo-benefício
+  </p>
+
+  <a href="SEU_LINK_AFILIADO" target="_blank">
+    Ver Produto
+  </a>
+
+  <small class="trust">
+    🔒 Compra segura na Shopee / Mercado Livre
+  </small>
+</div>
+<div class="product">
+  <img src="imagem.jpg" alt="Produto">
+  <h3>Fone Bluetooth TWS</h3>
+  <p>Som potente e confortável para o dia a dia.</p>
+
+  <p class="badges">
+    🚚 Entrega rápida | ⭐ Bem avaliado | 💸 Ótimo custo-benefício
+  </p>
+
+  <a href="SEU_LINK_AFILIADO" target="_blank">
+    Ver Produto
+  </a>
+
+  <small class="trust">
+    🔒 Compra segura na Shopee / Mercado Livre
+  </small>
+</div>
+<div class="product">
+  <img src="imagem.jpg" alt="Produto">
+  <h3>Fone Bluetooth TWS</h3>
+  <p>Som potente e confortável para o dia a dia.</p>
+
+  <p class="badges">
+    🚚 Entrega rápida | ⭐ Bem avaliado | 💸 Ótimo custo-benefício
+  </p>
+
+  <a href="SEU_LINK_AFILIADO" target="_blank">
+    Ver Produto
+  </a>
+
+  <small class="trust">
+    🔒 Compra segura na Shopee / Mercado Livre
+  </small>
+</div>
       </div>
+
     </section>
 
     <section class="category">
